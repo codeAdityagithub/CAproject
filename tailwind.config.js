@@ -4,7 +4,10 @@ export default {
     theme: {
         extend: {
           colors:{
-            primaryBlue:"#0076CE"
+            primaryBlue:"#0076CE",
+            cardBlue:"#0076CE",
+            cardRed:"#FF6666",
+            cardInfoBg:"#F4F4F4"
           },
           fontFamily:{
             'poppins':["Poppins"]

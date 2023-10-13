@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className="fullHeight w-full flex items-center justify-center">
+        <div className="container h-screen flex items-center justify-center">
             {/* left part */}
-            <div className="flex-1 flex flex-col items-start gap-2 px-8 justify-center">
-                <h1 className="text-[65px] font-[700] leading-[80px] text-center lg:text-left">
+            <div className="flex-1 flex flex-col items-start gap-8 lg:gap-2 px-8 justify-center">
+                <h1 className="heading text-center lg:text-left">
                     Find <span className="heroGradientText">Partners</span> (CAs) available online
                 </h1>
                 <p className="textShadow text-center lg:text-left">

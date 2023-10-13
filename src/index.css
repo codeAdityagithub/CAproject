@@ -26,4 +26,14 @@
         color: transparent;
         font-weight: 700;
     }
+    .anchorGradient{
+      background:linear-gradient(
+            90.97deg,
+            #0076ce 26.63%,
+            #9400d3 65.81%
+        );
+    }
+    .heading{
+      @apply text-[65px] font-semibold leading-[88px];
+    }
 }

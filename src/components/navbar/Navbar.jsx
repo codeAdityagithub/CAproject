@@ -9,7 +9,7 @@ const options = [
 
 const Navbar = () => {
     return (
-        <nav className="w-full h-[85px] flex bg-transparent sticky px-16 lg:px-24">
+        <nav className="w-full h-[85px] flex bg-transparent backdrop-blur-md fixed px-16 lg:px-24">
             {/* left part */}
             <div className="flex-1 flex items-center justify-start gap-2">
                 <div className="logo">LOGO</div>

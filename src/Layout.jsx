@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar'
 
 const Layout = () => {
   return (
-    <div className='w-full h-screen font-poppins'>
+    <div className='w-full min-h-screen font-poppins'>
         <Navbar />
         <Outlet />
     </div>
