@@ -1,8 +1,9 @@
 import React from "react";
+import SearchBar from "../search/SearchBar";
 
 const Hero = () => {
     return (
-        <div className="container h-screen flex items-center justify-center">
+        <div className="h-screen flex items-center justify-center">
             {/* left part */}
             <div className="flex-1 flex flex-col items-start gap-8 lg:gap-2 px-8 justify-center">
                 <h1 className="heading text-center lg:text-left">
@@ -13,16 +14,7 @@ const Hero = () => {
                     to a myriad of businesses seeking CA’s for compliance
                     support
                 </p>
-                <div className="search w-full relative">
-                    <input
-                        type="text"
-                        placeholder="Search by name"
-                        className="border border-[#BFBFBF] rounded-[10px] px-4 h-[73px] w-[80%]"
-                    />
-                    <button className="btn-fill h-[73px] w-[186px] -translate-x-3 absolute right-0">
-                        Search
-                    </button>
-                </div>
+                <SearchBar />
             </div>
             {/* right part */}
             <div className="flex-1 hidden lg:flex items-center justify-center  h-[487px]">

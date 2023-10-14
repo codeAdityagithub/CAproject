@@ -5,7 +5,7 @@ const Joincard = ({details, index}) => {
     <div className='w-[405px] h-[266px] p-10 rounded-[20px] shadow-lg flex flex-col gap-1 relative'>
         <div className="title font-bold text-xl">{details.title}</div>
         <div className="desc text-center">{details.desc}</div>
-        <div className="info rounded-[10px] flex gap-1 bg-cardInfoBg p-2">
+        <div className="info h-[115px] rounded-[10px] flex gap-1 bg-cardInfoBg p-2">
             <div className="due flex flex-col gap-1 w-[40%]">
                 <span className="text-cardBlue font-bold text-lg">Due Date</span>
                 <span className="">{details.due}</span>
