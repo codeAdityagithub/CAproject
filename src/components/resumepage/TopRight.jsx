@@ -3,7 +3,7 @@ import notfound from "../../assets/notfound.jpeg";
 
 const TopRight = ({ data }) => {
     return (
-        <div className="flex-[4] max-w-[650px] p-4 flex flex-col items-start gap-6">
+        <div className="flex-[4] max-w-[650px] p-4 flex flex-col items-center md:items-start gap-6">
             {/* image */}
             <img
                 className="object-contain max-h-[400px]"
@@ -12,7 +12,7 @@ const TopRight = ({ data }) => {
                 alt={data?.name || "resume image"}
             />
             {/* about */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 ">
                 <h2 className="text-2xl font-bold">About {data?.name}</h2>
                 <div className="w-full flex gap-3 flex-wrap">
                     <div className="flex flex-col gap-3">
@@ -38,7 +38,7 @@ const TopRight = ({ data }) => {
                 </div>
             </div>
             {/* services */}
-            <div className="flex items-start justify-center">
+            <div className="flex flex-wrap gap-3 w-full items-start justify-start">
                 <div className="flex-1">
                     <div className="font-bold text-[#999999]">
                         SERVICES I OFFER

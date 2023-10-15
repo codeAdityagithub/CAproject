@@ -1,12 +1,13 @@
 import React from "react";
 
 import StarIcon from "@mui/icons-material/Star";
+import { Link } from "react-router-dom";
 
 const SearchCard = ({ item }) => {
     return (
-        <a
+        <Link
             tabIndex={0}
-            href={`/resume/${item.id}`}
+            to={`/resume/${item.id}`}
             className="bg-white text-black w-full p-4 transition-colors focus:bg-gray-300  hover:bg-gray-300 flex items-center justify-between"
         >
             {item.name}
@@ -15,7 +16,7 @@ const SearchCard = ({ item }) => {
                 <StarIcon fontSize="small" />
                 <span className="text-black">{"("+item.reviewCount+")"}</span>
             </span>
-        </a>
+        </Link>
     );
 };
 

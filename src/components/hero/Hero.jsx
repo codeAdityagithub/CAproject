@@ -3,7 +3,7 @@ import SearchBar from "../search/SearchBar";
 
 const Hero = () => {
     return (
-        <div className="h-screen flex items-center justify-center">
+        <div className="h-screen flex items-center justify-center heroBg">
             {/* left part */}
             <div className="flex-1 flex flex-col items-start gap-8 lg:gap-2 px-8 justify-center">
                 <h1 className="heading text-center lg:text-left">
@@ -11,13 +11,13 @@ const Hero = () => {
                 </h1>
                 <p className="textShadow text-center lg:text-left">
                     CONNECT with us where your services are listed and visible
-                    to a myriad of businesses seeking CA’s for compliance
+                    to a myriad of businesses seeking CA's for compliance
                     support
                 </p>
                 <SearchBar />
             </div>
             {/* right part */}
-            <div className="flex-1 hidden lg:flex items-center justify-center  h-[487px]">
+            <div className="flex-1 hidden lg:flex items-center justify-center gap-2  h-[487px]">
                 <div className="flex h-full items-end">
                     <img src="/hero2.png" alt="image2" />
                 </div>

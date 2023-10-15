@@ -14,50 +14,70 @@ import col2 from "../../assets/studentchat3.png";
 
 const Page2 = () => {
     return (
-        <div className="h-screen w-full flex flex-col items-center justify-center">
-            <div className="flex items-center justify-center min-h-[500px]">
+        <div className="mt-16 sm:mt-0 h-screen w-full flex flex-col items-center justify-center">
+            <div className="flex items-start justify-center min-h-[500px]">
                 {/* left container */}
-                <div className="flex-1 flex flex-col gap-4 items-center">
-                    <h1 className="heading leading-[97px] text-center lg:text-left">
+                <div className="flex-1 flex flex-col gap-4 items-start">
+                    <h1 className="heading sm:leading-[97px] text-center lg:text-left">
                         <span className="heroGradientText">
                             All-in-One platform
                         </span>{" "}
                         that Makes Easier
                     </h1>
-                    <p className="text-[24px] text-center lg:text-left">
+                    <p className="sm:text-lg md:text-xl md:text-[24px] text-center lg:text-left">
                         We are more than a platform; We are your success
                         partner. Discover our services to achieve your business
                         and educational goals
                     </p>
                     {/* cards */}
-                    <div className="cards max-w-[700px] flex items-center justify-center lg:justify-start flex-wrap w-full">
+                    <div className="cards flex items-center gap-4 justify-center lg:justify-start flex-wrap w-full">
                         <div className="flex gap-1 items-start justify-center h-[96px]">
-                            <img src={icon1} alt="search icon" className="" />
-                            <p className="text-xl text-left w-[205px]">
+                            <img
+                                loading="lazy"
+                                src={icon1}
+                                alt="search icon"
+                                className=""
+                            />
+                            <p className="sm:text-lg md:text-xl text-left w-[205px]">
                                 <span className="font-bold">SEARCH</span> for
                                 vital company information
                             </p>
                         </div>
 
                         <div className="flex gap-1 items-start justify-center h-[96px]">
-                            <img src={icon2} alt="search icon" className="" />
-                            <p className="text-xl text-left w-[205px]">
+                            <img
+                                loading="lazy"
+                                src={icon2}
+                                alt="search icon"
+                                className=""
+                            />
+                            <p className="sm:text-lg md:text-xl text-left w-[205px]">
                                 <span className="font-bold">CONNECT</span> with
                                 the resources to meet your business needs
                             </p>
                         </div>
 
                         <div className="flex gap-1 items-start justify-center h-[96px]">
-                            <img src={icon3} alt="search icon" className="" />
-                            <p className="text-xl text-left w-[205px]">
+                            <img
+                                loading="lazy"
+                                src={icon3}
+                                alt="search icon"
+                                className=""
+                            />
+                            <p className="sm:text-lg md:text-xl text-left w-[205px]">
                                 <span className="font-bold">RESEARCH</span> and
                                 generate reports that drive growth{" "}
                             </p>
                         </div>
 
                         <div className="flex gap-1 items-start justify-center h-[96px]">
-                            <img src={icon4} alt="search icon" className="" />
-                            <p className="text-xl text-left w-[205px]">
+                            <img
+                                loading="lazy"
+                                src={icon4}
+                                alt="search icon"
+                                className=""
+                            />
+                            <p className="sm:text-lg md:text-xl text-left w-[205px]">
                                 <span className="font-bold">ACADEMY</span> to
                                 give you the skills for success in your career
                             </p>
@@ -67,19 +87,19 @@ const Page2 = () => {
                 {/* right container */}
                 <div className="hidden lg:flex justify-center flex-1 h-full">
                     <div className="flex items-end">
-                        <img src={Teacher} alt="Teacher" />
+                        <img loading="lazy" src={Teacher} alt="Teacher" />
                         {/* <div className="chat1">
-                            <img src={Row} alt="Teachers chat" />
-                            <img src={Row1} alt="Teachers chat" />
+                            <img loading="lazy" src={Row} alt="Teachers chat" />
+                            <img loading="lazy" src={Row1} alt="Teachers chat" />
                         </div> */}
                     </div>
                     <div className="flex items-start">
                         {/* <div className="chat2">
-                            <img src={col} alt="Students chat" />
-                            <img src={col1} alt="Students chat" />
-                            <img src={col2} alt="Students chat" />
+                            <img loading="lazy" src={col} alt="Students chat" />
+                            <img loading="lazy" src={col1} alt="Students chat" />
+                            <img loading="lazy" src={col2} alt="Students chat" />
                         </div> */}
-                        <img src={Student} alt="Student" />
+                        <img loading="lazy" src={Student} alt="Student" />
                     </div>
                 </div>
             </div>

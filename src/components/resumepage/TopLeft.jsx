@@ -6,7 +6,7 @@ const Topleft = ({data}) => {
   return (
     <div className='flex-[3] max-w-[500px] p-4 flex flex-col gap-6'>
         <div className='flex flex-col items-start p-2 gap-6'>
-            <h2 className='text-2xl font-bold'>{data?.name}</h2>
+            <h2 className='text-3xl font-bold'>{data?.name}</h2>
             <p className='text-lg'>{data?.intro}</p>
             <span className="inline-flex items-start justify-center text-primaryBlue">
                 {data?.rating}

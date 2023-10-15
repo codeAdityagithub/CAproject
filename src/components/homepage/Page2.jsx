@@ -48,7 +48,7 @@ const cardDetails = [
 
 const Page2 = () => {
     return (
-        <div className="h-fit w-full flex flex-col items-center justify-center">
+        <div className="h-fit w-full flex flex-col items-center justify-center page2Bg">
             {/* top heading */}
             <div className="mt-[50px] mb-[100px]">
                 <h1 className="heading text-center">

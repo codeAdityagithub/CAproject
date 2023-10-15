@@ -32,6 +32,7 @@ const footerlists = [
 
 const Footer = () => {
     return (
+        <>
         <footer
             id="footer"
             className="h-max sm:h-[400px] w-full px-10 py-6 sm:px-16 sm:py-10 footerGradient relative font-sans"
@@ -66,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* links */}
-            <div className="border-t-2 mt-2 p-4 flex text-white text-sm font-light">
+            <div className="border-t-2 py-4 flex text-white text-sm font-light">
                 <div className="flex-1">Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071, Maharashtra</div>
                 <div className="flex">
                     <ul className="flex gap-2">
@@ -78,11 +79,12 @@ const Footer = () => {
                 </div>
             </div>
             {/* trademark */}
-            <div className="bg-black text-white text-xs font-light h-[57px] absolute left-0 bottom-0 w-full flex items-center justify-center">
+        </footer>
+            <div className="bg-black text-white text-xs font-light h-[57px] w-full text-center flex items-center justify-center">
                 Registered trademark of India Private Limited © 2023 loerumipsum
                 Inc. All Rights Reserved
             </div>
-        </footer>
+            </>
     );
 };
 
