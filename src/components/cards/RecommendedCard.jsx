@@ -2,6 +2,7 @@ import React from "react";
 
 import StarIcon from "@mui/icons-material/Star";
 import notfound from "../../assets/notfound.jpeg";
+import { Link } from "react-router-dom";
 
 const RecommendedCard = ({ data }) => {
     return (
@@ -24,12 +25,12 @@ const RecommendedCard = ({ data }) => {
                         {"(" + data?.reviewCount + ")"}
                     </span>
                 </span>
-                <a
-                    href={`/resume/${data?.id}`}
+                <Link
+                    to={`/resume/${data?.id}`}
                     className="btn-fill w-full flex items-center justify-center"
                 >
                     View services
-                </a>
+                </Link>
             </div>
         </div>
     );
