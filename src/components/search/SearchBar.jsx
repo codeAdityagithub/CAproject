@@ -18,6 +18,7 @@ const SearchBar = () => {
             return data;
         },
         staleTime: 1000,
+        retry:1,
         enabled: query.trim() !== "",
     });
 
