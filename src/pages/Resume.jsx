@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import React from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import Topleft from "../components/resumepage/Topleft";
+import Topleft from "../components/resumepage/TopLeft";
 import TopRight from "../components/resumepage/TopRight";
 import Recommend from "../components/resumepage/Recommend";
 
