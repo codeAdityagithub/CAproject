@@ -3,7 +3,7 @@ import SearchBar from "../search/SearchBar";
 
 const Hero = () => {
     return (
-        <div className="h-screen flex items-center justify-center heroBg">
+        <div className="pt-[85px] h-screen flex items-center justify-center heroBg">
             {/* left part */}
             <div className="flex-1 flex flex-col items-start gap-8 lg:gap-2 px-8 justify-center">
                 <h1 className="heading text-center lg:text-left">

@@ -14,10 +14,10 @@ import Teacher from "../../assets/Teacher.png";
 
 const Page3 = () => {
     return (
-        <div className="mt-16 sm:mt-0 h-screen w-full flex flex-col items-center justify-center">
+        <div className="mt-16 sm:mt-0 min-h-screen h-min w-full flex flex-col items-center justify-center">
             <div className="flex items-start justify-center min-h-[500px]">
                 {/* left container */}
-                <div className="flex-1 flex flex-col gap-4 items-start px-4">
+                <div className="xl:flex-1 flex-[3] flex flex-col gap-4 items-start px-4">
                     <h1 className="heading sm:leading-[97px] text-center lg:text-left">
                         <span className="heroGradientText">
                             All-in-One platform
@@ -85,21 +85,21 @@ const Page3 = () => {
                     </div>
                 </div>
                 {/* right container */}
-                <div className="hidden lg:flex justify-center flex-1 h-full">
-                    <div className="flex items-end">
-                        <img loading="lazy" src={Teacher} alt="Teacher" />
+                <div className="hidden  min-h-[500px] h-min lg:flex xl:flex-row lg:flex-col justify-center flex-[2] xl:flex-1">
+                    <div className="flex items-end justify-center">
+                        <img loading="lazy" src={Teacher} alt="Teacher" className="lg:w-[250px]" />
                         {/* <div className="chat1">
                             <img loading="lazy" src={Row} alt="Teachers chat" />
                             <img loading="lazy" src={Row1} alt="Teachers chat" />
                         </div> */}
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start justify-center">
                         {/* <div className="chat2">
                             <img loading="lazy" src={col} alt="Students chat" />
                             <img loading="lazy" src={col1} alt="Students chat" />
                             <img loading="lazy" src={col2} alt="Students chat" />
                         </div> */}
-                        <img loading="lazy" src={Student} alt="Student" />
+                        <img loading="lazy" src={Student} alt="Student" className="lg:w-[250px]" />
                     </div>
                 </div>
             </div>
