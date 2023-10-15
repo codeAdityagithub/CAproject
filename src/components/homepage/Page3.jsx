@@ -6,18 +6,18 @@ import icon3 from "../../assets/icon3.png";
 import icon4 from "../../assets/icon4.png";
 import Student from "../../assets/Student.png";
 import Teacher from "../../assets/Teacher.png";
-import Row from "../../assets/teacherchat1.png";
-import Row1 from "../../assets/teacherchat2.png";
-import col from "../../assets/studentchat1.png";
-import col1 from "../../assets/studentchat2.png";
-import col2 from "../../assets/studentchat3.png";
+// import Row from "../../assets/teacherchat1.png";
+// import Row1 from "../../assets/teacherchat2.png";
+// import col from "../../assets/studentchat1.png";
+// import col1 from "../../assets/studentchat2.png";
+// import col2 from "../../assets/studentchat3.png";
 
-const Page2 = () => {
+const Page3 = () => {
     return (
         <div className="mt-16 sm:mt-0 h-screen w-full flex flex-col items-center justify-center">
             <div className="flex items-start justify-center min-h-[500px]">
                 {/* left container */}
-                <div className="flex-1 flex flex-col gap-4 items-start">
+                <div className="flex-1 flex flex-col gap-4 items-start px-4">
                     <h1 className="heading sm:leading-[97px] text-center lg:text-left">
                         <span className="heroGradientText">
                             All-in-One platform
@@ -107,4 +107,4 @@ const Page2 = () => {
     );
 };
 
-export default Page2;
+export default Page3;
